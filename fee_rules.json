@@ -1,0 +1,66 @@
+{
+ "units": {
+  "flat_cents": "固定费用：交易金额落入该段即按 value 分收取一次，与金额大小无关",
+  "bps": "万分比：按落入该段金额的 value/10000 计费",
+  "pct": "百分比：按落入该段金额的 value/100 计费"
+ },
+ "tiers": {
+  "A": {
+   "segments": [
+    {
+     "up_to_yuan": "200.00",
+     "unit": "flat_cents",
+     "value": 45
+    },
+    {
+     "up_to_yuan": "2000.00",
+     "unit": "bps",
+     "value": 32
+    },
+    {
+     "up_to_yuan": null,
+     "unit": "bps",
+     "value": 55
+    }
+   ]
+  },
+  "B": {
+   "segments": [
+    {
+     "up_to_yuan": "1000.00",
+     "unit": "bps",
+     "value": 18
+    },
+    {
+     "up_to_yuan": "6000.00",
+     "unit": "pct",
+     "value": 0.35
+    },
+    {
+     "up_to_yuan": null,
+     "unit": "bps",
+     "value": 42
+    }
+   ]
+  },
+  "C": {
+   "segments": [
+    {
+     "up_to_yuan": "100.00",
+     "unit": "flat_cents",
+     "value": 20
+    },
+    {
+     "up_to_yuan": "800.00",
+     "unit": "bps",
+     "value": 15
+    },
+    {
+     "up_to_yuan": null,
+     "unit": "pct",
+     "value": 0.25
+    }
+   ]
+  }
+ }
+}
