@@ -1,0 +1,8 @@
+[EXPORT] time=2026-11-14T07:58:57Z detail_rows=137 files=9
+[AUDIT] 跨租户引用 OK
+[AUDIT] 合计行混入 OK
+[AUDIT] 文件清单 OK
+[AUDIT] 行数对账 OK
+[AUDIT] 费用合计 OK
+[AUDIT] 台账登记 OK
+[AUDIT_RESULT] PASS
